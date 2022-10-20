@@ -1,0 +1,21 @@
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #eaeaea;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    color: white;
+}
+
+.card {
+    border: 2px solid white;
+}
+
+.text-center {
+    text-align: center;
+}
