@@ -108,4 +108,22 @@ li a:hover {
     flex-direction: column;
     background: #1a2238;
     color: #eaeaea;
+    padding: 40px;
+}
+
+.mt-10 {
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-item {
+    background: #f7f7f7;
+    color: #222;
+    padding: 20px;
 }
