@@ -117,13 +117,56 @@ li a:hover {
 
 .card {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 8px;
 }
 
 .card-item {
+    text-align: center;
+    width: 25%;
     background: #f7f7f7;
     color: #222;
-    padding: 20px;
+    padding: 24px;
+    box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, .5);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.icon {
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 4px;
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-item {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .intro {
+        margin-top: 20px;
+    }
+
+    .img-foto {
+        padding: 0;
+    }
 }
