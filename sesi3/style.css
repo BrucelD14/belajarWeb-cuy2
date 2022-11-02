@@ -5,6 +5,7 @@
     font-family: Helvetica, sans-serif;
     text-decoration: none;
     list-style-type: none;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -19,7 +20,17 @@ header {
 
 .logo {
     margin-right: auto;
+    display: flex;
+    gap: 6px;
+}
+
+.logo-img {
+    width: 35px;
     margin-left: 10px;
+}
+
+.logo-title {
+    margin-right: auto;
     cursor: pointer;
     transition: all .5s ease 0s;
 }
@@ -149,9 +160,17 @@ li a:hover {
     padding: 4px;
 }
 
+footer {
+    padding: 20px; 
+    text-align: center;
+    background: #1A2238;
+    color: #eaeaea;
+}
+
 @media screen and (max-width: 500px) {
     .card {
         flex-direction: column;
+        gap: 0;
     }
 
     .card-item {
@@ -168,5 +187,17 @@ li a:hover {
 
     .img-foto {
         padding: 0;
+    }
+
+    nav {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #1A2238;
+        z-index: 9;
+    }
+
+    footer {
+        margin-bottom: 70px;
     }
 }
