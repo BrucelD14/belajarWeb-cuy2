@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Cuy Sesi 4</title>
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- AWAL NAVBAR -->
+    <header>
+        <div class="logo">
+            <img src="assets/image/partner.png" alt="logo" class="logo-img">
+            <h1 class="logo-title">BRUCEL D.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:samuderaduta144@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redir()">Follow Saya</button>
+    </header>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- AWAL CONTAINER -->
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Brucel D. here!</p>
+            <p class="description">Technology Influencer From Village</p>
+            <img src="assets/image/brucel-yam.jpg" alt="Brucel Image" class="img-foto">
+        </div>
+    </div>
+    <!-- AKHIR CONTAINER -->
+
+    <!-- AWAL PARALLAX -->
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Saya adalah Programmer</p>
+            <p class="description">Ngoding aja dlu, Jagonya belakangan</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWA()">Mari Kerjasama</button>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="assets/image/24-hours.png" alt="icons" class="icon">
+                    <p class="card-title">Pelayanan Nonstop</p>
+                    <p class="card-description">Service 24 jam ketika anda membutuhkan bantuan</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/image/hot-deal.png" alt="icons" class="icon">
+                    <p class="card-title">Jasa Paling Murah</p>
+                    <p class="card-description">Biaya jasa yang saya berikan pasti murah dan terjamin.</p>
+                </div>
+                <div class="card-item">
+                    <img src="assets/image/rating.png" alt="icons" class="icon">
+                    <p class="card-title">799 Review</p>
+                    <p class="card-description">Mereka merasa senang dalam bekerja sama dengan saya</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AKHIR PARALLAX -->
+
+    <!-- AWAL FOOTER -->
+    <footer>
+        <p class="title">&copy; Brucel D. Website 2022</p>
+    </footer>
+    <!-- AKHIR FOOTER -->
+
+
+    <!-- MY SCRIPT -->
+    <script>
+        function redir() {
+            window.location.href = "https://instagram.com/_samudera"
+        }
+
+        function redirWA() {
+            window.location.href = "https://wa.me/" + 6281266438109
+        }
+    </script>
+</body>
+
+</html>
