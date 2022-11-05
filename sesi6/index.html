@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi 6 Cuy | Web Trailer Game</title>
+</head>
+<style>
+    /* CLEARING HTML */
+    *,
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #trailer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .intro {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+        font-family: fantasy;
+    }
+
+    #pause-btn {
+        margin-top: 20px;
+        border: none;
+        padding: 12px;
+        color: white;
+        background-color: black;
+        font-weight: 800;
+        width: 200px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <video autoplay muted id="trailer">
+        <source src="assets/game_trailer.mp4" type="video/mp4">
+    </video>
+
+    <div class="intro">
+        <center>
+            <img src="assets/roblox-logo.png" alt="logo Roblox" width="150">
+            <p>Roblox adalah game terbaik yang mendunia dan sangat nyaman dimainkan oleh anak-anak</p>
+            <button id="pause-btn">PAUSE</button>
+        </center>
+    </div>
+</body>
+
+</html>
