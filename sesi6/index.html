@@ -59,6 +59,23 @@
             <p>Roblox adalah game terbaik yang mendunia dan sangat nyaman dimainkan oleh anak-anak</p>
             <button id="pause-btn">PAUSE</button>
         </center>
+
+
+        <script>
+            const trailer = document.getElementById('trailer');
+            const pauseBtn = document.getElementById('pause-btn');
+            console.log(trailer);
+
+            pauseBtn.onclick = () => {
+                if(trailer.paused) {
+                    trailer.play()
+                    pauseBtn.innerHTML = "PAUSE";
+                } else {
+                    trailer.pause()
+                    pauseBtn.innerHTML = "PLAY";
+                }
+            }
+        </script>
     </div>
 </body>
 
