@@ -10,5 +10,26 @@ const botSay = () => {
 pertanyaan.innerHTML = botSay()[0];
 
 function botStart() {
-  console.log("starting bot");
+  init++;
+  if (init === 1) {
+    console.log({ nama: jawaban.value });
+  } else if (init === 2) {
+    console.log({ usia: jawaban.value });
+  } else if (init === 3) {
+    console.log({ hobi: jawaban.value });
+  } else if (init === 4) {
+    console.log({ pacar: jawaban.value });
+  } else if (init === 5) {
+    finishing();
+  } else {
+    botEnd();
+  }
+}
+
+function finishing() {
+  console.log("finishing...");
+}
+
+function botEnd() {
+  console.log("bot end...");
 }
