@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: tomato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -43,4 +44,9 @@ input {
     padding: 16px;
     font-size: 24px;
     margin-top: 10px;
+}
+
+#pertanyaan {
+    font-size: 1.3em;
+    font-weight: 500;
 }
