@@ -2,4 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: tomato;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    border: none;
+    background-color: forestgreen;
+    font-size: 24px;
+    padding: 16px;
+    margin-left: 10px;
+    height: 65px;
+    color: #eaeaea;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+input {
+    border: none;
+    background-color: #eaeaea;
+    color: #222;
+    padding: 16px;
+    font-size: 24px;
+    margin-top: 10px;
 }
