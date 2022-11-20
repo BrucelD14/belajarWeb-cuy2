@@ -35,7 +35,6 @@ function botStart() {
 }
 
 function botdelay(jawabanUser) {
-  console.log({ userData: userData });
   setTimeout(() => {
     pertanyaan.innerHTML = botSay(jawabanUser)[init];
   }, [800]);
@@ -44,7 +43,7 @@ function botdelay(jawabanUser) {
 }
 
 function finishing() {
-  pertanyaan.innerHTML = `Makasih yaa ${userData[0]} dah main ke brucebot :), kali kali kita main ${userData[2]} bareng yuk`;
+  pertanyaan.innerHTML = `Makasih yaa ${userData[0]} dah main ke brucebot :), kali kali kita main ${userData[2]} bareng yuk `;
   jawaban.value = "sama-sama brucebot";
 }
 
