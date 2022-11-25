@@ -11,7 +11,6 @@
 }
 
 .wrapper {
-    border: 2px solid red;
     min-height: 100vh;
     min-width: 325px;
     display: flex;
@@ -40,7 +39,12 @@ button {
     color: #eaeaea;
     font-weight: 600;
     margin-top: 10px;
+}
 
+button:hover {
+    cursor: pointer;
+    background-color: #333;
+    transition: .4s ease-in-out;
 }
 
 input {
@@ -57,7 +61,8 @@ input {
     font-weight: 500;
 }
 
-.loaders {
+#loaders {
+    display: none;
     width: 85px;
     height: 85px;
     position: absolute;
